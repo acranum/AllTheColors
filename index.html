@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All the colors</title>
+    <link rel="icon" href="data/icon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body">
+  
+    <header>
+        <div class="nav">
+            <!--<p id="time">Time: </p>-->
+            <p id="hex" class="hex">Hex: </p>
+            <p id="counter" class="counter">0 of 16.581.375</p>
+        </div>
+    </header>
+    <main>
+        <h1>All the colors</h1>
+        <div class="content">
+            
+            <button id="run" onclick="startAnimation()">GO</button>
+            <input id="term" placeholder="terminal" oninput="terminal(this.value)">
+    
+            <div class="regler">
+                <label for="slider">R</label>
+                <input type="range" id="slider1" min="0" max="255" value="0" step="1" oninput="updateValue1(this.value)" disabled>
+                <span id="slider-value1">0</span> <br>
+    
+                <label for="slider">G</label>
+                <input type="range" id="slider2" min="0" max="255" value="0" step="1" oninput="updateValue2(this.value)" disabled>
+                <span id="slider-value2">0</span> <br>
+    
+                <label for="slider">B</label>
+                <input type="range" id="slider3" min="0" max="255" value="0" step="1" oninput="updateValue3(this.value)" disabled>
+                <span id="slider-value3">0</span> <br>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
