@@ -39,5 +39,7 @@ git clone https://github.com/acranum/AllTheColors.git
 cd AllTheColors
 index.html
 ```
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/acranum/AllTheColors/blob/main/LICENSE) file for details.
+
+## License
+This project is licensed under the GPL-3.0 License. See the [LICENSE](https://github.com/acranum/AllTheColors/blob/main/LICENSE) file for details.
 
